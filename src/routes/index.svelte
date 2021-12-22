@@ -28,6 +28,7 @@
     <h1>Barebones Test</h1>
     <h3>Submit the form and look at the results in the Google form.</h3>
   </header>
+
   <main>
     <form on:submit|preventDefault={handleSubmit}>
       <div>
@@ -48,6 +49,7 @@
     </form>
   </main>
 {/if}
+
 <footer>
   <p>
     <strong>Code:</strong>
