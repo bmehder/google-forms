@@ -1,6 +1,4 @@
 <script>
-  const log = msg => console.log(msg)
-
   let submitStatus
 
   const handleSubmit = async data => {
@@ -8,7 +6,7 @@
 
     const formData = new FormData(data.currentTarget)
 
-    const response = await fetch('contact.json', {
+    const response = await fetch('/api/contact.json', {
       method: 'POST',
       body: formData,
     })
