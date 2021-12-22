@@ -48,6 +48,15 @@
     </form>
   </main>
 {/if}
+<footer>
+  <p>
+    <strong>Code:</strong>
+    <a
+      href="https://github.com/bmehder/google-forms/tree/main/src"
+      target="_blank">https://github.com/bmehder/google-forms/tree/main/src</a
+    >
+  </p>
+</footer>
 
 <style>
   :global(*) {
@@ -60,7 +69,9 @@
     display: grid;
     place-items: center;
   }
-  header {
+  header,
+  footer {
+    margin: 3rem;
     text-align: center;
   }
   div {
