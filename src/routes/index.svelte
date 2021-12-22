@@ -26,6 +26,10 @@
 {:else if submitStatus === 'success'}
   <p>🔥 Form submitted.</p>
 {:else}
+  <header>
+    <h1>Barebones Test</h1>
+    <h3>Submit the form and look at the results in the Google form.</h3>
+  </header>
   <main>
     <form on:submit|preventDefault={handleSubmit}>
       <div>
@@ -58,11 +62,15 @@
     display: grid;
     place-items: center;
   }
+  header {
+    text-align: center;
+  }
   div {
     margin: 1rem;
   }
   form {
     width: 300px;
+    margin: auto;
   }
   input {
     padding: 0.5rem 1rem;
