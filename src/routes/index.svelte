@@ -76,6 +76,9 @@
     margin: 3rem;
     text-align: center;
   }
+  p {
+    text-align: center;
+  }
   div {
     margin: 1rem;
   }
